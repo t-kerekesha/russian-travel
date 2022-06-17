@@ -1,0 +1,7 @@
+.lead {
+  grid-area: lead;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  padding-top: 48px;
+}

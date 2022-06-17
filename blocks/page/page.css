@@ -1,0 +1,18 @@
+.page {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas:
+  'header'
+  'lead'
+  'intro'
+  'photo-grid'
+  'plases'
+  'cover'
+  'footer';
+  padding: 28px 48px 24px;
+  box-sizing: border-box;
+  background-color: #2a2c2f;
+  color: #fff;
+}
