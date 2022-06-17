@@ -1,0 +1,6 @@
+.places {
+  grid-area: places;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 80px;
+}
