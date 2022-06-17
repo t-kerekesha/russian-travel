@@ -1,0 +1,13 @@
+.content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+  'lead'
+  'intro'
+  'photo-grid'
+  'plases'
+  'cover';
+  row-gap: 92px;
+}
