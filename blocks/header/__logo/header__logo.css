@@ -6,3 +6,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (max-width: 680px) {
+  .header__logo {
+    min-width: 142px;
+    min-height: 42px;
+  }
+}

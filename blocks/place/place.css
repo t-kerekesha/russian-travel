@@ -14,3 +14,17 @@
     column-gap: 28px;
   }
 }
+
+@media (max-width: 680px) {
+  .place {
+    grid-template-columns: 16px auto 16px;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    '. title .'
+    '. url .'
+    'image image image'
+    '. content .';
+    column-gap: 0;
+    row-gap: 32px;
+  }
+}

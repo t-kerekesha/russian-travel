@@ -12,3 +12,9 @@
     row-gap: 73px;
   }
 }
+
+@media (max-width: 680px) {
+  .places {
+    row-gap: 50px;
+  }
+}

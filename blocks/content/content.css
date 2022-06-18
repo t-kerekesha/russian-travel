@@ -41,3 +41,17 @@
     row-gap: 88px;
   }
 }
+
+@media (max-width: 680px) {
+  .content {
+    padding: 48px 0 64px;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas:
+    'lead lead lead'
+    '. intro .'
+    '. photo-grid .'
+    'places places places'
+    'cover cover cover';
+    row-gap: 64px;
+  }
+}
