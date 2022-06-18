@@ -8,3 +8,9 @@
   text-transform: uppercase;
   align-self: start;
 }
+
+@media (max-width: 800px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}

@@ -5,3 +5,10 @@
   font-weight: 900;
   line-height: 1.06;
 }
+
+@media (max-width: 800px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}

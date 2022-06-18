@@ -4,3 +4,9 @@
   flex-direction: column;
   row-gap: 27px;
 }
+
+@media (max-width: 800px) {
+  .place__content {
+    row-gap: 25px;
+  }
+}

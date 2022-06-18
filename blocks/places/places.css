@@ -6,3 +6,9 @@
   grid-template-columns: auto;
   row-gap: 80px;
 }
+
+@media (max-width: 800px) {
+  .places {
+    row-gap: 73px;
+  }
+}
