@@ -1,13 +1,14 @@
 .content {
+  /* grid-area: content; */
   display: grid;
   width: 100%;
-  grid-template-columns: 100%;
+  grid-template-columns: 48px auto 48px;
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
-  'lead'
-  'intro'
-  'photo-grid'
-  'places'
-  'cover';
+  '. lead .'
+  '. intro .'
+  '. photo-grid .'
+  '. places .'
+  'cover cover cover';
   row-gap: 92px;
 }

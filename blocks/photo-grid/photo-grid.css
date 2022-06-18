@@ -1,5 +1,6 @@
 .photo-grid {
   grid-area: photo-grid;
+  width: 100%;
   display: grid;
   /* grid-template-columns: repeat(3, calc(100%/3)); */
   /* grid-template-columns: repeat(3, 1fr); */
@@ -7,5 +8,4 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-auto-rows: auto;
   gap: 14px;
-  width: 100%;
 }
