@@ -1,7 +1,7 @@
 .content {
-  /* grid-area: content; */
-  display: grid;
+  grid-area: content;
   width: 100%;
+  display: grid;
   grid-template-columns: 48px auto 48px;
   grid-template-rows: repeat(5, auto);
   grid-template-areas:

@@ -6,18 +6,32 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   display: grid;
-  grid-template-columns: 100%;
+  /* grid-template-columns: 100%; */
+  grid-template-columns: 48px auto 48px;
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
-  'header'
-  'content'
-  'footer';
-  max-width: calc(1280px - 2*48px);
-  margin: auto;
+  '. header .'
+  'content content content'
+  '. footer .';
+  /* Ограничение контента */
+  max-width: 1280px;
+  margin: 0 auto;
+  /* min-height: 100vh; */
   /* padding: 28px 48px 24px; */
-  padding-top: 28px;
-  padding-bottom: 24px;
+  padding: 28px 0 24px;
   box-sizing: border-box;
   background-color: #2a2c2f;
   color: #fff;
+}
+
+@media (max-width: 800px) {
+  .page {
+    grid-template-columns: 24px auto 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    grid-template-columns: 16px auto 16px;
+  }
 }
