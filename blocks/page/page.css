@@ -6,6 +6,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   display: grid;
+  justify-items: center;
   /* grid-template-columns: 100%; */
   grid-template-columns: 48px auto 48px;
   grid-template-rows: repeat(3, auto);
@@ -30,7 +31,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .page {
     grid-template-columns: 16px auto 16px;
   }

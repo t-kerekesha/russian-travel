@@ -1,6 +1,9 @@
 .content {
   grid-area: content;
   width: 100%;
+  max-width: calc(1280px - 2*48px);
+  padding: 48px 0 92px;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: 48px auto 48px;
   grid-template-rows: repeat(5, auto);
@@ -9,6 +12,18 @@
   '. intro .'
   '. photo-grid .'
   '. places .'
-  'cover cover cover';
+  '. cover .';
+  justify-items: center;
   row-gap: 92px;
+}
+
+@media (max-width: 1080px) {
+  .content {
+    grid-template-areas:
+    '. lead .'
+    '. intro .'
+    '. photo-grid .'
+    '. places .'
+    'cover cover cover';
+  }
 }
