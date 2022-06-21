@@ -1,7 +1,6 @@
 .cover {
   grid-area: cover;
   width: 100%;
-  /* height: auto; */
   min-height: 740px;
   background-image: url('../../images/cover__background.jpg');
   background-size: cover;
