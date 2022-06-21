@@ -2,11 +2,16 @@
   grid-area: content;
   display: flex;
   flex-direction: column;
-  row-gap: 27px;
+  row-gap: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .place__content {
     row-gap: 25px;
+    font-size: 16px;
+    line-height: 1.625;
   }
 }

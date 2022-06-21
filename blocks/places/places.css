@@ -7,13 +7,13 @@
   row-gap: 80px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .places {
     row-gap: 73px;
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .places {
     row-gap: 50px;
   }

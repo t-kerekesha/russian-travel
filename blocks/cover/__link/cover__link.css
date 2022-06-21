@@ -7,17 +7,15 @@
   row-gap: 32px;
   align-items: center;
   justify-content: center;
-  /* background-image: url('../../../images/cover__background.jpg'); */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* height: 800px; */
-  color: #fff;
+  color: inherit;
   text-decoration: none;
 }
 
 .cover__link::before {
   position: absolute;
   content: '';
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: #2a2c2f;
@@ -27,4 +25,10 @@
 
 .cover__link:hover::before {
   opacity: .8;
+}
+
+@media (max-width: 720px) {
+  .cover__link {
+    row-gap: 16px;
+  }
 }

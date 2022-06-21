@@ -1,5 +1,5 @@
 .page {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -7,7 +7,6 @@
   -moz-text-size-adjust: 100%;
   display: grid;
   justify-items: center;
-  /* grid-template-columns: 100%; */
   grid-template-columns: 48px auto 48px;
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
@@ -15,23 +14,23 @@
   'content content content'
   '. footer .';
   /* Ограничение контента */
+  min-width: 300px;
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  /* min-height: 100vh; */
-  /* padding: 28px 48px 24px; */
   padding: 28px 0 24px;
   box-sizing: border-box;
   background-color: #2a2c2f;
   color: #fff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .page {
     grid-template-columns: 24px auto 24px;
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .page {
     padding: 16px 0 24px;
     grid-template-columns: 16px auto 16px;

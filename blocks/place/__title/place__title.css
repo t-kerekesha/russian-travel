@@ -1,21 +1,28 @@
 .place__title {
   grid-area: title;
   margin: 0;
+  width: 100%;
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
   }
+  .place:first-of-type .place__title {
+    width: min-content;
+  }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;
+  }
+  .place:first-of-type .place__title {
+    width: 100%;
   }
 }

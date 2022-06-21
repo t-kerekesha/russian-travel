@@ -8,10 +8,16 @@
   z-index: 1;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .cover__subtitle {
     max-width: calc(100% - 2*16px);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.14;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 14px;
   }
 }

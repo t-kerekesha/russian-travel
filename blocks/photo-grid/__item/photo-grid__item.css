@@ -1,5 +1,6 @@
 .photo-grid__item {
   width: 100%;
+  /* для картинок с разным соотношением сторон и разрешением */
   aspect-ratio: 4 / 3;
   object-fit: cover;
   object-position: center;

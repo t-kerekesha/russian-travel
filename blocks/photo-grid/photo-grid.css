@@ -2,9 +2,6 @@
   grid-area: photo-grid;
   width: 100%;
   display: grid;
-  /* grid-template-columns: repeat(3, calc(100%/3)); */
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* grid-template-rows: 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: auto;
   gap: 16px;
@@ -16,13 +13,13 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .photo-grid {
     gap: 16px;
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .photo-grid {
     gap: 12px
   }

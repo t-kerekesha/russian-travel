@@ -1,8 +1,7 @@
 .content {
   grid-area: content;
   width: 100%;
-  max-width: calc(1280px - 2*48px);
-  padding: 48px 0 92px;
+  padding: 56px 0 92px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 48px auto 48px;
@@ -19,6 +18,7 @@
 
 @media (max-width: 1080px) {
   .content {
+    padding: 48px 0 92px;
     grid-template-areas:
     '. lead .'
     '. intro .'
@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   .content {
     padding: 48px 0 88px;
     grid-template-columns: 24px auto 24px;
@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .content {
     padding: 48px 0 64px;
     grid-template-columns: 16px auto 16px;

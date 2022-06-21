@@ -7,7 +7,7 @@
   background-position: center;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .header__logo {
     min-width: 142px;
     min-height: 42px;
