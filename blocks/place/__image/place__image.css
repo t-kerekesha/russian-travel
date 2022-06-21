@@ -1,7 +1,8 @@
 .place__image {
   grid-area: image;
   width: 100%;
-  aspect-ratio: 1 / 1;
+   /* для картинок с разным соотношением сторон и разрешением */
+  /* aspect-ratio: 1 / 1; */
   object-fit: cover;
   object-position: center;
 }

@@ -1,8 +1,29 @@
 .cover {
   grid-area: cover;
   width: 100%;
+  /* height: auto; */
+  min-height: 740px;
   background-image: url('../../images/cover__background.jpg');
   background-size: cover;
   background-position: center;
-  aspect-ratio: 1.6;
+   /* для равномерного сжатия картинки */
+  /* aspect-ratio: 1.6; */
+}
+
+@media (max-width: 1080px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 880px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover {
+    min-height: 200px;
+  }
 }
