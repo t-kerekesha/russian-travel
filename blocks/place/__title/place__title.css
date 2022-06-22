@@ -12,17 +12,11 @@
     font-size: 42px;
     line-height: 1.1;
   }
-  .place:first-of-type .place__title {
-    width: min-content;
-  }
 }
 
 @media (max-width: 720px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-  }
-  .place:first-of-type .place__title {
-    width: 100%;
   }
 }

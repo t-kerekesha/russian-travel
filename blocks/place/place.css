@@ -23,6 +23,10 @@
     grid-template-columns: 340px auto;
     column-gap: 28px;
   }
+
+  .place:first-of-type .place__title {
+    width: min-content;
+  }
 }
 
 @media (max-width: 720px) {
@@ -36,5 +40,9 @@
     '. content .';
     column-gap: 0;
     row-gap: 32px;
+  }
+
+  .place:first-of-type .place__title {
+    width: 100%;
   }
 }
